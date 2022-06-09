@@ -4,7 +4,7 @@ import {_taskHandle} from 'react-native/Libraries/Interaction/Batchinator';
 
 import colors from '../../content/colors';
 import {InputText, InputPassword} from '../InputApp';
-import ButtonApp from '../ButtonApp.js';
+import ButtonApp from '../ButtonApp/index.js';
 
 const Signup = ({navigation}) => {
   const [email, setEmail] = React.useState('');

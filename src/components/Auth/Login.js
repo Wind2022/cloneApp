@@ -4,7 +4,7 @@ import {ActivityIndicator, Colors} from 'react-native-paper';
 
 import colors from '../../content/colors';
 import {InputText, InputPassword} from '../InputApp';
-import ButtonApp from '../ButtonApp.js';
+import ButtonApp from '../ButtonApp/index.js';
 
 const Login = ({navigation, route}) => {
   const [email, setEmail] = React.useState('');
